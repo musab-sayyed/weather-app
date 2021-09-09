@@ -1,0 +1,47 @@
+footer{
+    background: var(--dark-blue);
+    color: white;
+    overflow: hidden;
+    margin-top: auto;
+}
+
+
+.main-footer{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-icons{
+    display: flex;
+    list-style-type: none;
+}
+
+.footer-icon{
+    margin: 0.5em;
+    font-size: 1.2em;
+}
+
+.footer-right{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* icon colours */
+
+#youtube-icon{
+    color: red;
+}
+
+#instagram-icon{
+    color: palevioletred;
+}
+#facebook-icon{
+    color: rgb(66, 103, 178);
+}
+#twitter-icon{
+    color: #00ACEE;
+}

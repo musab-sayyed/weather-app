@@ -1,0 +1,25 @@
+main{
+    display: flex;
+    align-items: center;
+    padding-top: 2em;
+}
+
+.main-left{
+    width: 30vw;
+}
+
+.main-right{
+    width: 70vw;
+}
+
+#about-img{
+    width: 15rem;
+    filter: drop-shadow(0 0 0.5em gray);
+}
+
+@media screen and (max-width: 1005px){
+    main{
+        flex-direction: column;
+        padding-top: 2em;
+    }
+}

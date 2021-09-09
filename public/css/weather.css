@@ -1,0 +1,156 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-top{
+    background-color: var(--dark-blue);
+    border-radius: 30px;
+}   
+
+#search{
+    background-color: var(--dark-blue);
+    color: white;
+    border-radius: 30px;
+    width: 40vw;
+    font-size: 1.1em;
+    padding: 0.5em;
+    border: none;
+}
+
+#search-btn{
+    background-color: var(--light-blue);
+    border: none;
+    border-radius: 30px;
+    font-size: 1.1em;
+    padding: 0.5em;
+    width: 7vw;
+    margin: 0 0.5em;
+}
+
+/* Output */
+
+.main-bottom{
+    width: 30vw;
+    border: none;
+    margin-top: 2.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.weather-top{
+    padding: 1em;
+    background-color: var(--dark-blue);
+    color: white;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em;
+    height: 15em;
+    background-color: var(--grey);
+    color: white;
+    border-radius: 0 0 10px 10px    ;
+}
+
+#city-name{
+    font-size: 2em;
+}
+
+.temp-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#temp{
+    font-size: 3em;
+}
+
+.weather-icon{
+    font-size: 4em;
+}
+
+
+@media screen and (max-width: 1005px){
+    #search-btn{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 855pc){
+    #search-btn{
+        padding: 0.5;
+    }
+}
+
+@media screen and (max-width: 835pc){
+    #search-btn{
+        border-radius: 10px;
+        padding: 0.2em;
+    }    
+    .main-top{
+        border-radius: 10px;
+        padding: 0.2em;
+    }
+}
+
+@media screen and (max-width: 745px){
+    #search{
+        width: 58vw;
+    }
+
+    #search-btn{
+        width: 10vw;
+        padding: 0.4em 0;
+    }
+
+    .main-bottom{
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width : 515px){
+    .main-bottom{
+        width: 60vw;
+    }
+
+    #search{
+        width: 70vw;
+    }
+
+    #search-btn{
+        width: 15vw;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .main-bottom{
+        width: 80vw;
+    }
+
+    #temp{
+        font-size: 2em;
+    }
+
+    #weather-icon{
+        font-size: 3em;
+    }
+}
+
+@media screen and (max-width: 300px){
+    #search{
+        width: 67vw;
+    }
+    #search-btn{
+        width: 20vw;
+    }
+}
